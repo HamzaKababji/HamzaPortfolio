@@ -1,0 +1,119 @@
+<html lang = "en">
+	<title>Hamza's Portfolio</title>
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<style>
+		body, h1, h2, h3, h4, h5 {font-family: "Raleway", sans-serif}
+	</style>
+
+	<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+		<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+			<h3 class="w3-padding-64 w3-center"><b>Hamza<br>Elkababji</b></h3>
+			<a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
+			<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
+			<a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+		</nav>
+
+		<div class="w3-main" style="margin-left:300px">
+
+		<div class="w3-row">
+			<div class="w3-third">
+				<img src="Image3.jpg" style="width:100%">
+				<img src="Image9.jpg" style="width:100%">
+				<img src="Image6.jpg" style="width:100%">
+			</div>
+
+			<div class="w3-third">
+				<img src="Image5.jpg" style="width:100%">
+				<img src="Image10.jpg" style="width:100%">
+				<img src="Image2.jpg" style="width:100%">
+			</div>
+		
+			<div class="w3-third">
+				<img src="Image1.jpg" style="width:100%">
+				<img src="Image7.jpg" style="width:100%">
+				<img src="Image8.jpg" style="width:100%">
+			</div>
+		</div>
+		
+		<div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+				<h1><b>About Me</b></h1>
+				<img src="Image4.jpg" class="w3-image w3-padding-32" width="600" height="650">
+			<div class="w3-content w3-justify" style="max-width:600px">
+				<h3>Hamza Elkababji</h3>
+					<p class = "w3-justify">Ever since I was a kid, I've been captivated by the world of computers. My journey into the realm of technology began when I built my very own PC from scratch 🛠️. That experience ignited a spark within me, setting me on a path of exploration, innovation, and endless fascination with all things tech.</p>
+					<p class = "w3-justify">My journey continued through video games, where I not only enjoyed playing but also delved into the intricacies of game files and configurations. This experience solidified my interest in coding and software development. 🎮</p>
+					<p class = "w3-justify">Now, as I pursue my degree, I'm committed to honing my programming skills in languages like Java, Python, and JavaScript.</p>
+					<p class = "w3-justify">Beyond my academic pursuits, I'm fortunate to be part of a newly established family business called Smartegrators, specializing in IoT, smart systems, and security solutions. This venture aligns perfectly with my passion, and I dream of contributing to its growth and success. 🌐</p>
+					<p class = "w3-justify">Most of all, I'm eager to contribute to the tech community and connect with like-minded individuals who share my enthusiasm for all things tech.</p>
+				<hr class="w3-opacity">
+
+				<h4 class="w3-padding-16">Technical Skills, Education, and Work Experience</h4>
+					<p>I consider myself to have a wide range of technical skills and work experience, thus, to keep it simple I have included my resume below with the information relating to the field I am studying in only.</p>
+					<form method="get" action="Resume.pdf">
+						<button type="submit" class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom">Download Resume!</button>
+					</form>
+				<hr class="w3-opacity">
+			</div>
+		</div>
+		
+		<div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+			<div class="w3-content" style="max-width:600px">
+				<h2 class="w3-center"><b>Contact Me</b></h2>
+					<p>Send a Form, or Reach Out Through Email or Phone (See Footer)</p>
+
+				<form onsubmit = "myFunction()">
+					
+					<div class="w3-section">
+						<label>Name</label>
+						<input class="w3-input w3-border" type="text" name="Name" required>
+					</div>
+					
+					<div class="w3-section">
+						<label>Email</label>
+						<input class="w3-input w3-border" type="text" name="Email" required>
+					</div>
+					
+					<div class="w3-section">
+						<label>Message</label>
+						<input class="w3-input w3-border" type="text" name="Message" required>
+					</div>
+						<button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Form</button>
+				</form>
+				<script>
+					function myFunction() {
+						alert("The form was submitted");
+				</script>
+			</div>
+		</div>
+
+		<footer class="w3-container w3-padding-32 w3-grey">  
+			<div class="w3-row-padding">
+				<div class="w3-third">
+					<h3 class = "w3-center">Inquiries</h3>
+						<p class = "w3-center w3-justify">Phone: <b>(519) - 701 - 0150</b></p>
+						<p class = "w3-center w3-justify">Email: <b>hamza.kababji@gmail.com</b></p>      
+				</div>
+
+				<div class="w3-third">
+					<h3 class = "w3-center">||</h3>
+						<p class = "w3-center">||</p>      
+						<p class = "w3-center">||</p> 
+				</div>
+
+				<div class="w3-third">
+					<h3 class = "w3-center">Website Prepared By:</h3>
+						<p class = "w3-center w3-justify">Hamza Elkababji</p>
+						<p class = "w3-center w3-justify">---------------------</p>
+						<p class = "w3-center w3-justify">Date: September, 2023</p>      
+				</div>
+
+			</div>
+		</footer>
+		
+		</div>
+	</body>
+</html>
